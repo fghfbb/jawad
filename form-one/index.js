@@ -4,7 +4,7 @@
 
       var formData = new FormData(this);
       
-      fetch("AKfycbxv_A1qDk4WXBDsZHhwKrfDTwg4qTafBqvgn0uLV24", {
+      fetch("https://script.google.com/d/1ZQqpR-bn6DegNrdQn72tnpo6FdZC34byf1gxU_2IO9j9qqdb4fAZVErr/edit?usp=sharing", {
         method: "POST",
         body: formData
       })

